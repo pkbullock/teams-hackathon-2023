@@ -18,7 +18,8 @@ dotnet run
 - https://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs-azure-cli%2Chttp
 - https://learn.microsoft.com/en-us/graph/api/chats-getallmessages?view=graph-rest-1.0&tabs=http
 - https://learn.microsoft.com/en-us/graph/sdks/choose-authentication-providers?tabs=CS
-
+- https://learn.microsoft.com/en-us/graph/sdks/create-requests?tabs=CS
+ 
 
 Note: This is a premium app and required E5 license to work.
 See https://learn.microsoft.com/en-us/graph/teams-licenses
