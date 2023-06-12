@@ -1,6 +1,6 @@
 # teams-hackathon-2023
 
-The purpose of this hack is to see if we can read the message notifications of the user from their activity feed or multiple chats. 
+The purpose of this hack is to see if we can read the message notifications of the user from their activity feed or multiple chats, organise them into a friendlier more manageable view. 
 
 ## Idea 1
 
@@ -47,25 +47,24 @@ Thinking of Team Settings + When the User last interacted with the Team, to sugg
 
 # Resources
 
-- [https://github.com/microsoft/hack-together-teams](https://github.com/microsoft/hack-together-teams)
+- https://github.com/microsoft/hack-together-teams
 
 ## Design
 
-- [https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/design/design-teams-app-overview](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/design/design-teams-app-overview)
-- [https://63587347138fdad13ed63ccd-omfbjvvebn.chromatic.com/](https://63587347138fdad13ed63ccd-omfbjvvebn.chromatic.com/)
-- [https://github.com/OfficeDev/microsoft-teams-ui-component-library](https://github.com/OfficeDev/microsoft-teams-ui-component-library)
+- https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/design/design-teams-app-overview
+- https://63587347138fdad13ed63ccd-omfbjvvebn.chromatic.com/
+- https://github.com/OfficeDev/microsoft-teams-ui-component-library
 
 
 ## Teams Development Resources
 
-- [https://learn.microsoft.com/en-us/graph/toolkit/overview?context=graph%2Fapi%2F1.0&view=graph-rest-1.0](https://learn.microsoft.com/en-us/graph/toolkit/overview?context=graph%2Fapi%2F1.0&view=graph-rest-1.0)
+- https://learn.microsoft.com/en-us/graph/toolkit/overview?context=graph%2Fapi%2F1.0&view=graph-rest-1.0
 - [Graph Toolkit Playground](https://mgt.dev/)
+- https://learn.microsoft.com/en-us/graph/toolkit/overview
 
 ## Azure Resources
 
-- [https://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs-azure-cli%2Chttp](https://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs-azure-cli%2Chttp)
-- [https://learn.microsoft.com/en-us/azure/event-hubs/](https://learn.microsoft.com/en-us/azure/event-hubs/)
-
-
+- https://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs-azure-cli%2Chttp
+- https://learn.microsoft.com/en-us/azure/event-hubs/
 - https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/get-started?tabs=windows
-- dhttps://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs--azure-portal%2Chttp
+- https://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs--azure-portal%2Chttp
