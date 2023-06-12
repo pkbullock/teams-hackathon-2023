@@ -31,7 +31,7 @@ namespace msgraphchangeapp
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "msgraphapp", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "msgraphchangeapp", Version = "v1" });
             });
 
             // Add Configuration to the app
@@ -47,7 +47,7 @@ namespace msgraphchangeapp
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "msgraphapp v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "msgraphchangeapp v1"));
             }
 
             app.UseRouting();

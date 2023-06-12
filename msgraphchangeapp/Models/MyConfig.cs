@@ -6,6 +6,8 @@
         public string AppSecret { get; set; } = string.Empty;
         public string TenantId { get; set; } = string.Empty;
         public string Ngrok { get; set; } = string.Empty;
-        public string TestUserUPN { get; set; } = string.Empty;     
+        public string TestUserUPN { get; set; } = string.Empty;
+
+        public string TestUserID { get; set; } = string.Empty;
     }
 }
