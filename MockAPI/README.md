@@ -55,6 +55,13 @@ With modifications to estimate an example of what the Get operation would return
 
 ```
 
+### How Many Examples?
+
+Team A - 3 Users mentioning YOU. 7 Replies to the conversation thread.
+Team B - 2 Users mentioning YOU. 1 Reply to the conversation thread.
+Team C - 1 User mentioning YOU. 1 Reply to the conversation thread.
+
+
 
 ### Chat Message
 
