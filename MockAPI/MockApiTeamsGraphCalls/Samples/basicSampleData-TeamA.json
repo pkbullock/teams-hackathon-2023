@@ -5,7 +5,7 @@
     "topic": {
       "source": "text",
       "value": "Deployment Approvals Channel",
-      "webUrl": "https://teams.microsoft.com/_#/conversations/19:6a3586b6-67c8-46d5-a449-a60829d59b0d_d47e12f9-99f3-40ea-8870-7b39d2be92f7@unq.gbl.spaces?ctx=chat"
+      "webUrl": "https://teams.microsoft.com/l/message/19:448cfd2ac2a7490a9084a9ed14cttr78c@thread.skype/1605223780000?tenantId=c8b1bf45-3834-4ecf-971a-b4c755ee677d&groupId=d4c2a937-f097-435a-bc91-5c1683ca7245&parentMessageId=1605223771864&teamName=Approvals&channelName=Azure%20DevOps&createdTime=1605223780000"
     },
     "activityType": "deploymentApprovalRequired",
     "previewText": {
