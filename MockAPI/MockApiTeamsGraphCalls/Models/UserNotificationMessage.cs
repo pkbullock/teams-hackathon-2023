@@ -1,6 +1,6 @@
 ﻿namespace MockApiTeamsGraphCalls.Models
 {
-    public class UserNotification
+    public class UserNotificationMessage
     {
         public string id { get; set; }
         public DateTime dateReceived { get; set; }
