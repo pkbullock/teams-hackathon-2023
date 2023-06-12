@@ -54,6 +54,7 @@ With modifications to estimate an example of what the Get operation would return
 }
 
 ```
+Tip: Paste Above As Classes in Visual Studio to get the C# classes. ;-)
 
 ### How Many Examples?
 
