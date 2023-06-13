@@ -7,22 +7,6 @@
       },
       "storageSku": {
         "value": "Standard_LRS"
-      },
-      "publisherEmail": {
-        "value": "sample@sample.com"
-      },
-      "publisherName": {
-        "value": "TeamsHackathonPerson"
-      },
-      "apimServiceSku": {
-        "value": "Consumption"
-      },
-      "apimClientAadClientId":{
-        "value": "${{APIM_CLIENT_AAD_CLIENT_ID}}"
-      },
-      "apimClientAadClientSecret":{
-        "value": "${{APIM_CLIENT_AAD_CLIENT_SECRET}}"
       }
-
     }
   }

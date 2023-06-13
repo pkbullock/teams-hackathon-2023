@@ -23,6 +23,3 @@ var siteDomain = replace(replace(storage.properties.primaryEndpoints.web, 'https
 output TAB_AZURE_STORAGE_RESOURCE_ID string = storage.id // used in deploy stage
 output TAB_DOMAIN string = siteDomain
 output TAB_ENDPOINT string = 'https://${siteDomain}'
-
-param apimClientAadClientId string
-var authorizedClientApplicationIds = '${apimClientAadClientId};${teamsMobileOrDesktopAppClientId};${teamsWebAppClientId};${officeWebAppClientId1};${officeWebAppClientId2};${outlookDesktopAppClientId};${outlookWebAppClientId}'
