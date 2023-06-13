@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1621973534864",
+        "dateReceived": "2023-06-12T20:12:14.864Z",
+        "topic": {
+            "source": "text",
+            "value": "Deployment Approvals Channel",
+            "webUrl": "https://teams.microsoft.com/l/message/19:448cfd2ac2a7490a9084a9ed14cttr78c@thread.skype/1605223780000?tenantId=c8b1bf45-3834-4ecf-971a-b4c755ee677d&groupId=d4c2a937-f097-435a-bc91-5c1683ca7245&parentMessageId=1605223771864&teamName=Approvals&channelName=Azure%20DevOps&createdTime=1605223780000"
+        },
+        "activityType": "deploymentApprovalRequired",
+        "previewText": {
+            "content": "New deployment requires your approval"
+        },
+        "importance": "normal",
+        "locale": "en-us",
+        "from": {
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "0b4f1cf6-54c8-4820-bbb7-2a1f4257ade5",
+                "displayName": "user1 a",
+                "userIdentityType": "aadUser"
+            }
+        }
+    },
+    {
+        "id": "10d31679-f109-4a3a-922b-2458935631e3",
+        "dateReceived": "2023-06-12T20:12:14.864Z",
+        "topic": {
+            "source": "text",
+            "value": "Day 4 Testing",
+            "webUrl": "https://teams.microsoft.com/l/message/19:a33ac8d842f444f8a14dab5c44386444@thread.tacv2/1686598847369?tenantId=cb056806-0ed1-4a92-afd6-647acd53627c&groupId=df6e0446-fe9d-46bb-830d-a6c71635b302&parentMessageId=1686598847369&teamName=TestScript&channelName=General&createdTime=1686598847369&allowXTenantAccess=false"
+        },
+        "activityType": "chatMention",
+        "previewText": {
+            "content": "Paul Bullock - The report is due can you submit your results please"
+        },
+        "importance": "normal",
+        "locale": "en-us",
+        "from": {
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "6a3586b6-67c8-46d5-a449-a60829d59b0d",
+                "displayName": "Normal User",
+                "userIdentityType": "aadUser"
+            }
+        }
+    },
+    {
+        "id": "53892f8b-c745-490a-9218-380d23bd33f2",
+        "dateReceived": "2023-06-12T20:20:14.864Z",
+        "topic": {
+            "source": "text",
+            "value": "Day 4 Testing",
+            "webUrl": "https://teams.microsoft.com/l/message/19:a33ac8d842f444f8a14dab5c44386444@thread.tacv2/1686598847369?tenantId=cb056806-0ed1-4a92-afd6-647acd53627c&groupId=df6e0446-fe9d-46bb-830d-a6c71635b302&parentMessageId=1686598847369&teamName=TestScript&channelName=General&createdTime=1686598847369&allowXTenantAccess=false"
+        },
+        "activityType": "chatMention",
+        "previewText": {
+            "content": "Paul Bullock - you have not responded in timely fashion!"
+        },
+        "importance": "high",
+        "locale": "en-us",
+        "from": {
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "6a3586b6-67c8-46d5-a449-a60829d59b0d",
+                "displayName": "Normal User",
+                "userIdentityType": "aadUser"
+            }
+        }
+    },
+    {
+        "id": "49ebf864-1267-4849-840b-7b51791e75e5",
+        "dateReceived": "2023-06-12T20:20:14.864Z",
+        "topic": {
+            "source": "text",
+            "value": "Team Wide Conversation",
+            "webUrl": "https://teams.microsoft.com/l/message/19:a33ac8d842f444f8a14dab5c44386444@thread.tacv2/1686640037364?tenantId=cb056806-0ed1-4a92-afd6-647acd53627c&groupId=df6e0446-fe9d-46bb-830d-a6c71635b302&parentMessageId=1686640037364&teamName=TestScript&channelName=General&createdTime=1686640037364&allowXTenantAccess=false"
+        },
+        "activityType": "channelConversationReply",
+        "previewText": {
+            "content": "Sure No Worries"
+        },
+        "importance": "normal",
+        "locale": "en-us",
+        "from": {
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "6a3586b6-67c8-46d5-a449-a60829d59b0d",
+                "displayName": "Normal User",
+                "userIdentityType": "aadUser"
+            }
+        }
+    },
+    {
+        "id": "953e2915-c4f3-485e-bbb4-1f10f3c810d6",
+        "dateReceived": "2023-06-12T20:20:14.864Z",
+        "topic": {
+            "source": "text",
+            "value": "Day 5 Build and Test",
+            "webUrl": "https://teams.microsoft.com/l/message/19:a33ac8d842f444f8a14dab5c44386444@thread.tacv2/1686640037364?tenantId=cb056806-0ed1-4a92-afd6-647acd53627c&groupId=df6e0446-fe9d-46bb-830d-a6c71635b302&parentMessageId=1686640037364&teamName=TestScript&channelName=General&createdTime=1686640037364&allowXTenantAccess=false"
+        },
+        "activityType": "channelMention",
+        "previewText": {
+            "content": "Hi General, Today we are building the API and the UI. Good Luck!"
+        },
+        "importance": "normal",
+        "locale": "en-us",
+        "from": {
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "6a3586b6-67c8-46d5-a449-a60829d59b0d",
+                "displayName": "Normal User",
+                "userIdentityType": "aadUser"
+            }
+        }
+    }
+]

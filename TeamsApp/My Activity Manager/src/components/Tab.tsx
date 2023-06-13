@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Welcome } from "./sample/Welcome";
 import { TeamsFxContext } from "./Context";
 import config from "./sample/lib/config";
+import ActivityView from "./ActivityView";
 
 const showFunction = Boolean(config.apiName);
 
@@ -11,7 +12,10 @@ export default function Tab() {
     <div
       className={themeString === "default" ? "light" : themeString === "dark" ? "dark" : "contrast"}
     >
-      <Welcome showFunction={showFunction} />
+      {/* <Welcome showFunction={showFunction} /> */}
+
+      <ActivityView />
+      
     </div>
   );
 }
