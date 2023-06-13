@@ -7,7 +7,6 @@
         public Topic topic { get; set; }
         public string activityType { get; set; }
         public Previewtext previewText { get; set; }
-        public Templateparameter[] templateParameters { get; set; }
         public string importance { get; set; }
         public string locale { get; set; }
         public From from { get; set; }
@@ -38,11 +37,5 @@
         public string id { get; set; }
         public string displayName { get; set; }
         public string userIdentityType { get; set; }
-    }
-
-    public class Templateparameter
-    {
-        public string name { get; set; }
-        public string value { get; set; }
     }
 }

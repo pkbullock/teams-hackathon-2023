@@ -11,12 +11,6 @@
     "previewText": {
       "content": "New deployment requires your approval"
     },
-    "templateParameters": [
-      {
-        "name": "deploymentId",
-        "value": "6788662"
-      }
-    ],
     "importance": "normal",
     "locale": "en-us",
     "from": {
