@@ -11,6 +11,8 @@ Why?
 To enable development of the Teams Activity Feed as if it were available, build the UI and use the Teams Toolkit.
 Building in small learning of latest ASP.NET C# features for secure APIs as well. Then get the Teams Toolkit to call the secure API. 
 
+Note to Self: Do not use Azure API Management Consumption Tier, it does not support the authentication required the Teams.
+
 ## API Calls - Fake the Get Operation
 
 ### Send Notification Example
