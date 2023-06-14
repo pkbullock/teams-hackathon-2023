@@ -18,13 +18,19 @@ export default function NotificationItems({ notificationData, activityType }: No
 
     //Filtering the data based on activityType
     useEffect(() => {
+        
+        let filteredData:any;
+
         if (activityType) {
-            const filteredData = notificationData.filter(item => item.activityType === activityType);
-            setNotifications(filteredData);
+            filteredData = notificationData.filter(item => item.activityType === activityType);
         } else {
-            const filteredData = notificationData;
-            setNotifications(filteredData);
+            filteredData = notificationData;            
         }
+
+        // Sort the filtered data by date in descending order
+        filteredData.sort((a:any, b:any) => new Date(b.dateReceived).getTime() - new Date(a.dateReceived).getTime());
+        setNotifications(filteredData);
+
     }, [activityType]);
     
     // Column Defintion
