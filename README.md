@@ -21,16 +21,7 @@ Feature Ideas (not all are possible in the time)
 - Keep a reference of teams that you have participated in, but allow the user to leave the team, but keep a link to it, to re-join in future. 
 
 
-### However in researching the hack I learned a few things
 
-- In the Graph, the activity feed is not available in the Graph API as a read operation, only a write operation is available. There is a permission in AAD but no known API.
-- Getting data from across chats and channels is possible with the Graph API but alot of subscriptions to each team is required using premium APIs and doesnt quite hit the mark with the data we need for this scenario - inviting other issues over compliance and security into the app.
-- Attempts to see how Teams does it failed, the calls to the service as well hidden,
-- There are opportunities to improve the graph documentation for event hubs and subscriptions.
-- Teams Toolkit v5 does not support Visual Studio at this time
-- The MS Learn modules for the Graph Change notifications are not up to date with the latest changes to the Graph SDK C# library
-- Some GitHub Copilot X usage was done to hit the ground running with some of the code
-- Spent some time looking at the Graph SDK C#, there isnt specific documentation on using this library but learned how to start using it.
 
 ### Distractions and future exporations
 
@@ -57,6 +48,12 @@ This will certainly kick my learning back into a regular flow - which I also hav
 
 ## What I have built
 
+The components I have built are:
+
+- A Teams App with a Tab that provides a UI to display the notifications from a custom API (simulating the Microsoft Graph Activity API, if there was one)
+- Backend API to simulate the outputs from activities and notifications (MockAPI)
+- Exploration of Microsoft Graph and Event Hubs to see if getting all chats would suit the requirements
+- Exploration of a ASP.NET Web Api to provide as a consumer of the Microsoft Graph Change Notifications
 
 ## What I struggled with
 
@@ -67,6 +64,17 @@ There are some elements about wiring all the components together specifically, t
 I have GitHub Copilot X installed and used that to help build elements quicker and more often to get past errors and challanges more so with react and the user interface. This was an opportunity to stress test the AI and see how it can help me with my development workflow. Another advantage, I was able to get a significant boost in productivity building a simple UI in a few hours, which was useful as I felt I was behind lol.
 
 Cool stuff, love it, can see that getting used heavily.
+
+## In researching the hack I found some issues with a few things
+
+
+- In the Graph, the activity feed is not available in the Graph API as a read operation, only a write operation is available. There is a permission in AAD but no known API.
+- Getting data from across chats and channels is possible with the Graph API but alot of subscriptions to each team is required using premium APIs and doesnt quite hit the mark with the data we need for this scenario - inviting other issues over compliance and security into the app.
+- Attempts to see how Teams does it failed, the calls to the service as well hidden
+- There are opportunities to improve the graph documentation for event hubs and subscriptions.
+- Teams Toolkit v5 does not support Visual Studio at this time, shame but switched to Visual Studio Code
+- The MS Learn modules for the Graph Change notifications are not up to date with the latest changes to the Graph SDK C# library, found had to start rewriting the code.
+- Spent some time looking at the Graph SDK C#, there isnt specific documentation on using this library but learned how to start using it, no API reference? Or did I miss it?
 
 # Resources
 
