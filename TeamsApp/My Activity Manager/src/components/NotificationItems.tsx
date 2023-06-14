@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
-import { List, DetailsList, IColumn, ContextualMenu, IContextualMenuItem, DetailsListLayoutMode, IButtonProps, CommandBar, ICommandBarItemProps, setVirtualParent, initializeIcons } from '@fluentui/react';
+import { DetailsList, IColumn, ContextualMenu, IContextualMenuItem, DetailsListLayoutMode, IButtonProps, CommandBar, ICommandBarItemProps, initializeIcons, } from '@fluentui/react';
 import { Activity } from "./lib/IActivity";
 
 interface NotificationItemsProps {
@@ -26,7 +26,7 @@ export default function NotificationItems({ notificationData, activityType }: No
             setNotifications(filteredData);
         }
     }, [activityType]);
-
+    
     // Column Defintion
     const columns: IColumn[] = [
         { key: 'column1', name: 'Topic', fieldName: 'topic', minWidth: 150, maxWidth: 150 },
@@ -110,12 +110,12 @@ export default function NotificationItems({ notificationData, activityType }: No
         { 
             key: 'delete', 
             text: 'Delete', 
-            onClick: () => console.log('Delete - Feature Not Implemented'), iconProps: { iconName: 'Delete' } 
+            onClick: () => console.log('Delete - Feature Not Implemented'), iconProps: { iconName: 'Delete' },
         },
         {   
             key: 'share', 
             text: 'Share', 
-            onClick: () => console.log('Share - Feature Not Implemented'), iconProps: { iconName: 'Share' } 
+            onClick: () => console.log('Share - Feature Not Implemented'), iconProps: { iconName: 'Share' },
         }
     ];
 
@@ -143,12 +143,11 @@ export default function NotificationItems({ notificationData, activityType }: No
                 columns={columns}
                 onItemContextMenu={onItemContextMenu}
                 layoutMode={DetailsListLayoutMode.justified}
-                isHeaderVisible={true} />
+                isHeaderVisible={true} 
+                />
             {contextMenuProps && (
                 <ContextualMenu items={contextMenuProps.items} onDismiss={onDismissContextMenu} target={contextMenuProps.target} />
             )}
-
-
 
         </Fragment>
     );

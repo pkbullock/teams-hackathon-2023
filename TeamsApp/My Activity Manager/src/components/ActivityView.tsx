@@ -8,6 +8,7 @@ import './ActivityView.css';
 import { CurrentUser } from "./sample/CurrentUser";
 import { SelectTabData, SelectTabEvent, Tab, TabList, TabValue } from "@fluentui/react-components";
 import NotificationItems from "./NotificationItems";
+import { MessageBar, MessageBarType } from '@fluentui/react';
 
 const showFunction = Boolean(config.apiName);
 
@@ -64,7 +65,7 @@ export default function ActivityView() {
 
 
 
-        <h1 className="center">My Notification Mananger {userName ? ", " + userName : ""}!</h1>
+        <h1 className="center">My Notification Manager {userName ? ", " + userName : ""}!</h1>
 
         <div className="tabList">
           <TabList selectedValue={selectedValue} onTabSelect={onTabSelect}>
@@ -110,7 +111,27 @@ export default function ActivityView() {
                 <NotificationItems notificationData={notifications.data} activityType="botMention" />
               </div>
             )}
+             {selectedValue === "your-active-teams" && (
+              <div>
+                <div className="description">
+                  This is a list of all the teams you regularly interact with.
+                </div>
+
+                <NotificationItems notificationData={notifications.data} activityType="none" />
+
+                <MessageBar
+                    messageBarType={MessageBarType.info}
+                    isMultiline={true}
+                    dismissButtonAriaLabel="Close"
+                  >
+                    This is not implemented yet, however the purpose of this is to allow you to 
+                    prioritise the teams you interact with the most, to filter out and find notifications from these teams.
+                  </MessageBar>
+              </div>
+            )}
           </div>
+
+          
 
           {/* <h2>About you</h2>
         <CurrentUser userName={userName} />
