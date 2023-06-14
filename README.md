@@ -45,6 +45,29 @@ Instead of reading the notifications, can we see if we can display quickly the n
 Thinking of Team Settings + When the User last interacted with the Team, to suggest to turn down the notifications for the Team.
 
 
+# Outcomes from the hackathon
+
+## What I have learned
+
+The hackathon was an opportunity to give a massive boost to all the components, tools, and services that are available to developers to build Teams apps. 
+The resources listed below have been emensly helpful in getting up to speed with the latest and greatest, all the resources referenced by the hack, tools available are so much slicker and easier to use than before - which is super cool. I am rusty with deveopment so this has been a fun and positive learning experience with the intention to write blogs and share the knowledge with others, some issues discovered and ideas to share. 
+
+This will certainly kick my learning back into a regular flow - which I also have permission slip from wife ;-)
+
+
+## What I have built
+
+
+## What I struggled with
+
+There are some elements about wiring all the components together specifically, the API management calls to the backend API, I made to simulate a tool reading notifications from the Microsoft Graph Activity API. There was lots of learning and decided to mock the calls instead to allow more time to use the Teams Toolkit, React, Teams Development and the Graph Toolkit. Its a choose your battle problem. 
+
+## Use of AI Help
+
+I have GitHub Copilot X installed and used that to help build elements quicker and more often to get past errors and challanges more so with react and the user interface. This was an opportunity to stress test the AI and see how it can help me with my development workflow. Another advantage, I was able to get a significant boost in productivity building a simple UI in a few hours, which was useful as I felt I was behind lol.
+
+Cool stuff, love it, can see that getting used heavily.
+
 # Resources
 
 - https://github.com/microsoft/hack-together-teams
@@ -54,6 +77,8 @@ Thinking of Team Settings + When the User last interacted with the Team, to sugg
 - https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/design/design-teams-app-overview
 - https://63587347138fdad13ed63ccd-omfbjvvebn.chromatic.com/
 - https://github.com/OfficeDev/microsoft-teams-ui-component-library
+- https://developer.microsoft.com/en-us/fluentui#/controls/web
+- https://learn.microsoft.com/en-us/graph/toolkit/get-started/mgt-react
 
 
 ## Teams Development Resources
@@ -61,6 +86,12 @@ Thinking of Team Settings + When the User last interacted with the Team, to sugg
 - https://learn.microsoft.com/en-us/graph/toolkit/overview?context=graph%2Fapi%2F1.0&view=graph-rest-1.0
 - [Graph Toolkit Playground](https://mgt.dev/)
 - https://learn.microsoft.com/en-us/graph/toolkit/overview
+- https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/design/design-teams-app-ui-templates
+- https://axios-http.com/docs/req_config
+- https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/add-api-connection
+- https://learn.microsoft.com/en-us/graph/toolkit/get-started/mgt-react
+- https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/add-single-sign-on
+
 
 ## Azure Resources
 
@@ -68,3 +99,6 @@ Thinking of Team Settings + When the User last interacted with the Team, to sugg
 - https://learn.microsoft.com/en-us/azure/event-hubs/
 - https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/get-started?tabs=windows
 - https://learn.microsoft.com/en-us/graph/change-notifications-delivery-event-hubs?view=graph-rest-1.0&tabs=change-notifications-eventhubs--azure-portal%2Chttp
+- https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis
+- https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-API-Management-with-your-Teams-App-and-export-the-api-to-power-app
+- https://github.com/OfficeDev/TeamsFx/wiki/Integrate-API-Connection-with-your-Teams-app
