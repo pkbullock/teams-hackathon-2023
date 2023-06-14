@@ -2,6 +2,8 @@
 
 The purpose of this hack is to see if we can read the message notifications of the user from their activity feed or multiple chats, organise them into a friendlier more manageable view. 
 
+> Note: This is a hack and exploration of an idea, not a production ready app, there are some issues with the code, and it cannot work without Microsoft making changes to the Microsoft Graph.
+
 ## Idea 1
 
 ### What is the thinking behind this hack?
