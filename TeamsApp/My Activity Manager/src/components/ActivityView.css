@@ -14,3 +14,8 @@
     padding: 30px 20px;
     row-gap: 30px;
 }
+
+.description{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}

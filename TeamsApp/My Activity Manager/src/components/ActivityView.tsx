@@ -74,14 +74,11 @@ export default function ActivityView() {
             <Tab id="team-mentions" value="team-mentions">
               Team Mentions
             </Tab>
-            <Tab id="reactions" value="reactions">
-              Message Reactions
+            <Tab id="app-mentions" value="app-mentions">
+              App Mentions
             </Tab>
-            <Tab id="your-prioritised-teams" value="your-prioritised-teams">
+            <Tab id="your-active-teams" value="your-active-teams">
               Your prioritised Teams
-            </Tab>
-            <Tab id="your-unused-teams" value="your-unused-teams">
-              Your Used Teams
             </Tab>
           </TabList>
 
@@ -89,20 +86,28 @@ export default function ActivityView() {
           <div>
             {selectedValue === "your-mentions" && (
               <div>
-                Your mentions placeholder
+                <div className="description">
+                  This is a list of all the notifications that you have been mentioned in.
+                </div>
+                
                 <NotificationItems notificationData={notifications.data} activityType="chatMention" />
               </div>
             )}
             {selectedValue === "team-mentions" && (
               <div>
-                Team mentions placeholder
+                <div className="description">
+                  This is a list of all the notifications from channels you are a member of.
+                </div>
                 <NotificationItems notificationData={notifications.data}  activityType="channelMention"/>
               </div>
             )}
-            {selectedValue === "reactions" && (
+            {selectedValue === "app-mentions" && (
               <div>
-                Your mentions placeholder
-                <NotificationItems notificationData={notifications.data} activityType="channelMention" />
+                <div className="description">
+                  This is a list of all the notifications where an app has mentioned you.
+                </div>
+
+                <NotificationItems notificationData={notifications.data} activityType="botMention" />
               </div>
             )}
           </div>
