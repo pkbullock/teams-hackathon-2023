@@ -66,7 +66,7 @@ export default function ActivityView() {
         <h1 className="center">My Notification Manager {userName ? ", " + userName : ""}!</h1>
 
         <div className="tabList">
-          <TabList selectedValue={selectedValue} onTabSelect={onTabSelect}>
+          <TabList selectedValue={selectedValue} onTabSelect={onTabSelect} defaultSelectedValue="your-mentions">
             <Tab id="your-mentions" value="your-mentions">
               Your Mentions
             </Tab>
